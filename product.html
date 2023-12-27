@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>热门产品</title>
+</head>
+<link rel="stylesheet" href="./css/style.css">
+<body>
+    <div class="container">
+        <div id="top">
+            <div class="logo">
+                <img src="./images/logo.png" alt="">
+            </div>
+            <div class="contact">
+                <span>电话：020-2222-2222</span>
+            </div>
+        </div>
+    </div>
+    <div id="header">
+        <div class="container">
+            <div class="nav">
+                <a href="index.html">首页</a>
+                <a href="products.html">热门产品</a>
+                <a href="about.html">关于我们</a>
+                <a href="contact.html">联系方式</a>
+            </div>
+        </div>
+    </div>
+    <div class="banner">
+    </div>
+    <div class="container">
+        <div id="product">
+            <div class="title">产品详情</div>
+            <div class="columns">
+                <div class="column">
+                    <img src="./images/guige1.jpg" alt="">
+                </div>
+                <div class="column">
+                    <p class="titxt">特级西湖龙井</p>
+                    <p>	一芽一叶初展，芽叶夹角度小，芽长于叶,芽叶匀齐肥壮，芽叶长度不超过2.5cm。</p>
+                    <!-- 等级补充 https://baike.baidu.com/item/%E8%A5%BF%E6%B9%96%E9%BE%99%E4%BA%95/412851?fr=ge_ala#6 -->
+                    <button id="openbtn">提交产品意向单</button>
+                    <div class="overlay" id="overlay"></div>
+                    <div class="popup" id="popup">
+                        <form action="#" id="form3">
+                            <p class="titxt">产品意向单</p>
+                            产品名称：<input type="text" value="特级西湖龙井">
+                            <br>
+                            买家姓名：<input type="text" name="fname" id="fname" placeholder="请输入您的姓名">
+                            <br>
+                            买家电话：<input type="text" name="phone" id="phone" placeholder="请输入您的电话">
+                            <br>
+                            <div class="btn">
+                                <input type="submit" id="subbtn" value="提交">
+                                <input type="button" id="closebtn" value="取消">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        ©<script>document.write(new Date().getFullYear())</script> 西湖龙井 版权所有 网页内图片素材均来源于网络
+    </div>
+</body>
+<script src="./js/form.js"></script>
+</html>
